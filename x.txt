@@ -1,0 +1,26 @@
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/mandark44/project3.git
+git branch -M main
+git push -u origin main
+
+ git config --global user.name "mandark44"
+ git config --global user.email "mandar44.maddy@gmail.com"
+ git config --global user.email
+ git config --global user.name
+ git remote -v
+
+ git log
+ git clone https://github.com/mandark44/project3.git
+ git checkout 243b20b5fc5432e83950603749e416bc3294ce57
+
+ git checkout -b <ranch name> origin/main
+ git status
+ git fetch && git rebase origin/main
+ git add file name
+ git commit -m "msg"
+ git push origin test1
+ git checkout main
+ git merge test1
+ git push origin main
